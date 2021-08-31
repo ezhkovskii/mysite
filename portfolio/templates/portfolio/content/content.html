@@ -1,0 +1,33 @@
+{% block content %}
+    <div class="container-fluid p-0">
+        <!-- About-->
+        {% block about %}
+        {% include "portfolio/content/about.html" %}
+        {% endblock %}
+
+        <!-- Experience-->
+        {% block expirience %}
+        {% include "portfolio/content/expirience.html" %}
+        {% endblock %}
+
+        <!-- Education-->
+        {% block education %}
+        {% include "portfolio/content/education.html" %}
+        {% endblock %}
+
+        <!-- Skills-->
+       {% block skills %}
+        {% include "portfolio/content/skills.html" %}
+        {% endblock %}
+
+        <!-- Interests-->
+        {% block interests %}
+        {% include "portfolio/content/interests.html" %}
+        {% endblock %}
+
+        <!-- Awards-->
+        {% block awards %}
+        {% include "portfolio/content/awards.html" %}
+        {% endblock %}
+    </div>
+{% endblock %}
