@@ -1,8 +1,9 @@
+{% load i18n %}
 {% block skills %}
 <section class="resume-section" id="skills">
     <div class="resume-section-content">
-        <h2 class="mb-5">Навыки</h2>
-        <div class="subheading mb-3">Языки программирования и технологии</div>
+        <h2 class="mb-5">{% translate "Навыки" %}</h2>
+        <div class="subheading mb-3">{% translate "Языки программирования и технологии" %}</div>
         <ul class="list-inline dev-icons">
             <li class="list-inline-item"><i class="fab fa-python"></i></li>
             <li class="list-inline-item"><img src="https://img.icons8.com/ios/100/000000/django.png"/></li>
@@ -18,11 +19,11 @@
         <ul class="fa-ul mb-0">
             <li>
                 <span class="fa-li"><i class="fas fa-check"></i></span>
-                Backend разработка, создание REST-API
+                {% translate "Backend разработка, создание REST-API" %}
             </li>
             <li>
                 <span class="fa-li"><i class="fas fa-check"></i></span>
-                Машинное обучение, искусственные нейронные сети
+                {% translate "Машинное обучение, искусственные нейронные сети, глубокое обучение" %}
             </li>
         </ul>
     </div>

@@ -1,26 +1,27 @@
- {% block education %}
+{% load i18n %}
+{% block education %}
 <section class="resume-section" id="education">
 <div class="resume-section-content">
-    <h2 class="mb-5">Образование</h2>
+    <h2 class="mb-5">{% translate "Образование" %}</h2>
     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="flex-grow-1">
-            <h3 class="mb-0">Уфимский государственный авиационный технический университет</h3>
-            <div class="subheading mb-3">Магистратура</div>
-            <div>Факультет информатики и робототехники. Компьютерный анализ и интерпретация данных.</div>
-            <p>Изучаю методы машинного обучения и глубокое обучение.</p>
+            <h3 class="mb-0">{% translate "Уфимский государственный авиационный технический университет" %}</h3>
+            <div class="subheading mb-3">{% translate "Магистратура" %}</div>
+            <div>{% translate "Факультет информатики и робототехники. Компьютерный анализ и интерпретация данных." %}</div>
+            <p>{% translate "Изучаю методы машинного обучения и глубокое обучение." %}</p>
         </div>
-        <div class="flex-shrink-0"><span class="text-primary">Сентябрь 2020 - Май 2022</span></div>
+        <div class="flex-shrink-0"><span class="text-primary">{% translate "Сентябрь 2020 - Июнь 2022" %}</span></div>
     </div>
     <div class="d-flex flex-column flex-md-row justify-content-between">
         <div class="flex-grow-1">
-            <h3 class="mb-0">Башкирский государственный университет</h3>
-            <div class="subheading mb-3">Бакалавриат</div>
-            <div>Факультет математики и информационных технологий. Прикладная информатика.</div>
-            <p>Красный диплом.</p>
-            <p>Изучал численные методы, алгоритмы и структуры данных, линейную алгебру, математический анализ, статистику и теорию вероятности.</p>
-            <p>Выпускная квалификационная работа: "Применение методов машинного обучения для решения задачи регрессии: прогнозирование суммы выручки спортивных мероприятий".</p>
+            <h3 class="mb-0">{% translate "Башкирский государственный университет" %}</h3>
+            <div class="subheading mb-3">{% translate "Бакалавриат" %}</div>
+            <div>{% translate "Факультет математики и информационных технологий. Прикладная информатика." %}</div>
+            <p>{% translate "Диплом с отличием." %}</p>
+            <p>{% translate "Изучал численные методы, алгоритмы и структуры данных, линейную алгебру, математический анализ, статистику и теорию вероятности." %}</p>
+            <p>{% translate 'Выпускная квалификационная работа: "Применение методов машинного обучения для решения задачи регрессии: прогнозирование суммы выручки спортивных мероприятий".' %}</p>
         </div>
-        <div class="flex-shrink-0"><span class="text-primary">Сентябрь 2016 - Май 2020</span></div>
+        <div class="flex-shrink-0"><span class="text-primary">{% translate "Сентябрь 2016 - Июнь 2020" %}</span></div>
     </div>
 </div>
 </section>

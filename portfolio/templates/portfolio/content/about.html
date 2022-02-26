@@ -1,15 +1,16 @@
- {% block about %}
+{% load i18n %}
+{% block about %}
  <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        Ежков
-                        <span class="text-primary">Александр</span>
+                        {% translate "Ежков" %}
+                        <span class="text-primary">{% translate "Александр" %}</span>
                     </h1>
                     <div class="subheading mb-5">
-                        Россия · Уфа ·
+                        {% translate "Россия" %} · {% translate "Уфа" %} ·
                         <a href="mailto:name@email.com">mid.f@bk.ru</a>
                     </div>
-                    <p class="lead mb-5">Разработчик ПО. Студент. Хозяин кота по кличке Джун.</p>
+                    <p class="lead mb-5">{% translate "Разработчик ПО. Студент. Хозяин кота по кличке Джун." %}</p>
                     <div class="social-icons">
                         <a class="social-icon" href="https://github.com/ezhkovskii"><i class="fab fa-github"></i></a>
                         <a class="social-icon" href="https://t.me/tomrench"><i class="fab fa-telegram"></i></a>

@@ -1,57 +1,58 @@
+{% load i18n %}
 {% block expirience %}
 <section class="resume-section" id="experience">
     <div class="resume-section-content">
-        <h2 class="mb-5">Опыт</h2>
+        <h2 class="mb-5">{% translate "Опыт" %}</h2>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Инженер-программист</h3>
-                <div class="subheading mb-3">ТЕНЗОР</div>
-                <p>Бэкенд разработка системы отзывов на сайте Saby Get <a href="https://sbis.ru/help/sabyget">(https://sbis.ru/help/sabyget)</a></p>
+                <h3 class="mb-0">{% translate "Инженер-программист" %}</h3>
+                <div class="subheading mb-3">{% translate "ТЕНЗОР" %}</div>
+                <p>{% translate "Бэкенд разработка системы отзывов на сайте Saby Get" %} <a href="https://sbis.ru/help/sabyget">(https://sbis.ru/help/sabyget)</a></p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Октябрь 2021 - Настоящее время</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">{% translate "Октябрь 2021 - Настоящее время" %}</span></div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Python разработчик</h3>
-                <div class="subheading mb-3">КОМТЕК</div>
-                <p>Поддержка веб - приложения на Django для ТФОМС разных регионов России (Портал).</p>
+                <h3 class="mb-0">{% translate "Python разработчик" %}</h3>
+                <div class="subheading mb-3">{% translate "КОМТЕК" %}</div>
+                <p>{% translate "Поддержка веб - приложения на Django для ТФОМС разных регионов России (Портал)." %}</p>
                     <ul>
-                        <li>Создание и корректировка правил форматно - логического контроля реестров счетов на оплату мед. помощи;</li>
-                        <li>Проектирование архитектур и разработка новых модулей Портала;</li>
-                        <li>Разработка и доработка приложений Django;</li>
-                        <li>Разработка и доработка API Портала (DRF);</li>
-                        <li>Деплой проектов на сервере, используя Docker и Dokku;</li>
-                        <li>Проведение совещаний с заказчиками и представителями ТФОМС;</li>
-                        <li>Ревью кода;</li>
-                        <li>Наставничество.</li>
+                        <li>{% translate "Создание и корректировка правил форматно - логического контроля реестров счетов на оплату мед. помощи;" %}</li>
+                        <li>{% translate "Проектирование архитектур и разработка новых модулей Портала;" %}</li>
+                        <li>{% translate "Разработка и доработка приложений Django;" %}</li>
+                        <li>{% translate "Разработка и доработка API Портала (DRF);" %}</li>
+                        <li>{% translate "Деплой проектов на сервере, используя Docker и Dokku;" %}</li>
+                        <li>{% translate "Проведение совещаний с заказчиками и представителями ТФОМС;" %}</li>
+                        <li>{% translate "Ревью кода;" %}</li>
+                        <li>{% translate "Наставничество." %}</li>
                     </ul>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Сентябрь 2020 - Сентябрь 2021</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">{% translate "Сентябрь 2020 - Сентябрь 2021" %}</span></div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Техник - программист</h3>
-                <div class="subheading mb-3">Искра - Про</div>
+                <h3 class="mb-0">{% translate "Техник-программист" %}</h3>
+                <div class="subheading mb-3">{% translate "Искра-Про" %}</div>
                 <p>
-                    Доработка и сопровождение конфигурации "Управление геофизическим предприятием". Разработка и доработка внешних обработок, отчетов, печатных форм в системе 1С:Предприятие. Ведение задач в Redmine.
+                    {% translate 'Доработка и сопровождение конфигурации "Управление геофизическим предприятием". Разработка и доработка внешних обработок, отчетов, печатных форм в системе 1С:Предприятие. Ведение задач в Redmine.' %}
                 </p>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Сентябрь 2019 - Август 2020</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">{% translate "Сентябрь 2019 - Август 2020" %}</span></div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
-                <h3 class="mb-0">Стажер разработчик Pega BPM</h3>
-                <div class="subheading mb-3">Ланит Би Пи Эм</div>
-                <p>Автоматизация бизнес-процессов организаций-заказчиков с использованием платформы Pega.</p>
+                <h3 class="mb-0">{% translate "Стажер разработчик Pega BPM" %}</h3>
+                <div class="subheading mb-3">{% translate "Ланит Би Пи Эм" %}</div>
+                <p>{% translate "Автоматизация бизнес-процессов организаций-заказчиков с использованием платформы Pega." %}</p>
                  <ul>
-                        <li>Анализ логов;</li>
-                        <li>Построение sql запросов;</li>
-                        <li>Разработка бизнес - процесса оформления кредита в системе Pega BPM;</li>
-                        <li>Поиск и исправление багов в системе;</li>
-                        <li>Ведение задач в Jira.</li>
+                        <li>{% translate "Анализ логов;" %}</li>
+                        <li>{% translate "Построение sql запросов;" %}</li>
+                        <li>{% translate "Разработка бизнес - процесса оформления кредита в системе Pega BPM;" %}</li>
+                        <li>{% translate "Поиск и исправление багов в системе;" %}</li>
+                        <li>{% translate "Ведение задач в Jira." %}</li>
                  </ul>
             </div>
-            <div class="flex-shrink-0"><span class="text-primary">Июль 2019 — Июль 2019</span></div>
+            <div class="flex-shrink-0"><span class="text-primary">{% translate "Июль 2019 — Июль 2019" %}</span></div>
         </div>
     </div>
 </section>

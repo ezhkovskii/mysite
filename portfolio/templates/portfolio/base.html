@@ -1,5 +1,6 @@
 {% load blog_tags %}
 {% load static %}
+{% load i18n %}
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -17,18 +18,17 @@
 <body id="page-top">
     <div id="navigation">
         {% block navigation %}
-
         {% endblock %}
     </div>
 
     <div id="content">
         {% block content %}
-
         {% endblock %}
     </div>
 
     <div id="sidebar">
-        {% block sidebar %}{% endblock %}
+        {% block sidebar %}
+        {% endblock %}
     </div>
 
      {% block js %}
