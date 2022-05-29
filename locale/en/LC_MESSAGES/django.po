@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-02-27 00:43+0500\n"
+"POT-Creation-Date: 2022-05-29 14:04+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,13 +49,20 @@ msgid ""
 "Хакатон \"Цифровой прорыв. Креативные индустрии. Коммуникации и контент\". "
 "Разработка системы автоматизированного взаимодействия с тревел-блогерами. "
 "2021"
-msgstr "Hackathon \"Digital breakthrough. Creative industries. Communications and content\". Development of a system for automated interaction with travel bloggers. 2021"
+msgstr ""
+"Hackathon \"Digital breakthrough. Creative industries. Communications and "
+"content\". Development of a system for automated interaction with travel "
+"bloggers. 2021"
 
-#: .\portfolio\templates\portfolio\content\awards.html:13
+#: .\portfolio\templates\portfolio\content\awards.html:14
+msgid "Курс НИУ ВШЭ, Анализ текстовых данных. 2022"
+msgstr "HSE course. Text data analysis. 2022"
+
+#: .\portfolio\templates\portfolio\content\awards.html:19
 msgid "Курс НИУ ВШЭ, Основы машинного обучения. 2021"
 msgstr "HSE course. Basics of machine learning. 2021"
 
-#: .\portfolio\templates\portfolio\content\awards.html:17
+#: .\portfolio\templates\portfolio\content\awards.html:24
 msgid ""
 "Сертификат 1С: Профессионал на знание основных механизмов и возможностей "
 "платформы 1С:Предприятия 8. 2019"
@@ -85,32 +92,41 @@ msgstr ""
 "data."
 
 #: .\portfolio\templates\portfolio\content\education.html:11
-msgid "Изучаю методы машинного обучения и глубокое обучение."
-msgstr "I study machine learning methods and deep learning."
+msgid "Изучал методы машинного обучения и глубокое обучение."
+msgstr "I studied machine learning methods and deep learning."
+
+#: .\portfolio\templates\portfolio\content\education.html:12
+#: .\portfolio\templates\portfolio\content\education.html:22
+msgid "Диплом с отличием."
+msgstr "Diploma with Honors."
 
 #: .\portfolio\templates\portfolio\content\education.html:13
+msgid ""
+"Выпускная квалификационная работа: \"Применение методов обработки "
+"естественного языка для извлечения информации из медицинских данных\"."
+msgstr ""
+"Final qualifying work: \"Applying Natural Language Processing Techniques to "
+"Extract Information from Medical Data\"."
+
+#: .\portfolio\templates\portfolio\content\education.html:15
 msgid "Сентябрь 2020 - Июнь 2022"
 msgstr "September 2020 - June 2022"
 
-#: .\portfolio\templates\portfolio\content\education.html:17
+#: .\portfolio\templates\portfolio\content\education.html:19
 msgid "Башкирский государственный университет"
 msgstr "Bashkir State University"
 
-#: .\portfolio\templates\portfolio\content\education.html:18
+#: .\portfolio\templates\portfolio\content\education.html:20
 msgid "Бакалавриат"
 msgstr "Bachelor's degree"
 
-#: .\portfolio\templates\portfolio\content\education.html:19
+#: .\portfolio\templates\portfolio\content\education.html:21
 msgid ""
 "Факультет математики и информационных технологий. Прикладная информатика."
 msgstr ""
 "Faculty of Mathematics and Information Technology. Applied Computer Science."
 
-#: .\portfolio\templates\portfolio\content\education.html:20
-msgid "Диплом с отличием."
-msgstr "Diploma with Honors."
-
-#: .\portfolio\templates\portfolio\content\education.html:21
+#: .\portfolio\templates\portfolio\content\education.html:23
 msgid ""
 "Изучал численные методы, алгоритмы и структуры данных, линейную алгебру, "
 "математический анализ, статистику и теорию вероятности."
@@ -118,7 +134,7 @@ msgstr ""
 "Studied numerical methods, algorithms and data structures, linear algebra, "
 "mathematical analysis, statistics and probability theory."
 
-#: .\portfolio\templates\portfolio\content\education.html:22
+#: .\portfolio\templates\portfolio\content\education.html:24
 msgid ""
 "Выпускная квалификационная работа: \"Применение методов машинного обучения "
 "для решения задачи регрессии: прогнозирование суммы выручки спортивных "
@@ -127,7 +143,7 @@ msgstr ""
 "Final qualifying work: \"Applying machine learning methods to solve a "
 "regression problem: predicting the amount of revenue from sports events\"."
 
-#: .\portfolio\templates\portfolio\content\education.html:24
+#: .\portfolio\templates\portfolio\content\education.html:26
 msgid "Сентябрь 2016 - Июнь 2020"
 msgstr "September 2016 - June 2020"
 
@@ -142,25 +158,38 @@ msgstr "Software Engineer"
 
 #: .\portfolio\templates\portfolio\content\expirience.html:9
 msgid "ТЕНЗОР"
-msgstr ""
+msgstr "TENSOR"
 
 #: .\portfolio\templates\portfolio\content\expirience.html:10
 msgid "Бэкенд разработка системы отзывов на сайте Saby Get"
 msgstr "Back-end development of a feedback system on the Saby Get website"
 
 #: .\portfolio\templates\portfolio\content\expirience.html:12
+msgid "Разработка API для сайта Saby Get;"
+msgstr "API development for the Saby Get website;"
+
+#: .\portfolio\templates\portfolio\content\expirience.html:13
+msgid ""
+"Разработка API для бэк - офиса Saby Get Бизнес, в котором можно отвечать на "
+"отзывы заведения и собирать статистику с других площадок."
+msgstr ""
+"Development of an API for the back office of Saby Get Business, in which you "
+"can respond to reviews of the establishment and collect statistics from "
+"other sites."
+
+#: .\portfolio\templates\portfolio\content\expirience.html:16
 msgid "Октябрь 2021 - Настоящее время"
 msgstr "October 2021 - Present"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:16
+#: .\portfolio\templates\portfolio\content\expirience.html:20
 msgid "Python разработчик"
 msgstr "Python developer"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:17
+#: .\portfolio\templates\portfolio\content\expirience.html:21
 msgid "КОМТЕК"
-msgstr ""
+msgstr "KOMTEK"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:18
+#: .\portfolio\templates\portfolio\content\expirience.html:22
 msgid ""
 "Поддержка веб - приложения на Django для ТФОМС разных регионов России "
 "(Портал)."
@@ -168,7 +197,7 @@ msgstr ""
 "Support for a Django web application for Territorial Funds of Compulsory "
 "Medical Insurance in different regions of Russia (Portal)."
 
-#: .\portfolio\templates\portfolio\content\expirience.html:20
+#: .\portfolio\templates\portfolio\content\expirience.html:24
 msgid ""
 "Создание и корректировка правил форматно - логического контроля реестров "
 "счетов на оплату мед. помощи;"
@@ -176,48 +205,48 @@ msgstr ""
 "Creation and adjustment of rules for format-logical control of registers of "
 "invoices for payment of medical care;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:21
+#: .\portfolio\templates\portfolio\content\expirience.html:25
 msgid "Проектирование архитектур и разработка новых модулей Портала;"
 msgstr "Architecture design and development of new Portal modules;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:22
+#: .\portfolio\templates\portfolio\content\expirience.html:26
 msgid "Разработка и доработка приложений Django;"
 msgstr "Development and improvement of Django applications;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:23
+#: .\portfolio\templates\portfolio\content\expirience.html:27
 msgid "Разработка и доработка API Портала (DRF);"
 msgstr "Development and improvement of the Portal API (DRF);"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:24
+#: .\portfolio\templates\portfolio\content\expirience.html:28
 msgid "Деплой проектов на сервере, используя Docker и Dokku;"
 msgstr "Deploy projects on the server using Docker and Dokku;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:25
+#: .\portfolio\templates\portfolio\content\expirience.html:29
 msgid "Проведение совещаний с заказчиками и представителями ТФОМС;"
 msgstr ""
 "Conducting meetings with customers and representatives of territorial funds;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:26
+#: .\portfolio\templates\portfolio\content\expirience.html:30
 msgid "Ревью кода;"
 msgstr "Code review;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:27
+#: .\portfolio\templates\portfolio\content\expirience.html:31
 msgid "Наставничество."
 msgstr "Mentorship."
 
-#: .\portfolio\templates\portfolio\content\expirience.html:30
+#: .\portfolio\templates\portfolio\content\expirience.html:34
 msgid "Сентябрь 2020 - Сентябрь 2021"
 msgstr "September 2020 - September 2021"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:34
+#: .\portfolio\templates\portfolio\content\expirience.html:38
 msgid "Техник-программист"
 msgstr "Technician-programmer"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:35
+#: .\portfolio\templates\portfolio\content\expirience.html:39
 msgid "Искра-Про"
-msgstr ""
+msgstr "Iskra-Pro"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:37
+#: .\portfolio\templates\portfolio\content\expirience.html:41
 msgid ""
 "Доработка и сопровождение конфигурации \"Управление геофизическим "
 "предприятием\". Разработка и доработка внешних обработок, отчетов, печатных "
@@ -228,19 +257,19 @@ msgstr ""
 "Processors, reports, printing forms in the 1C:Enterprise system. Manage "
 "tasks in Redmine."
 
-#: .\portfolio\templates\portfolio\content\expirience.html:40
+#: .\portfolio\templates\portfolio\content\expirience.html:44
 msgid "Сентябрь 2019 - Август 2020"
 msgstr "September 2019 - August 2020"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:44
+#: .\portfolio\templates\portfolio\content\expirience.html:48
 msgid "Стажер разработчик Pega BPM"
 msgstr "Intern Developer Pega BPM"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:45
+#: .\portfolio\templates\portfolio\content\expirience.html:49
 msgid "Ланит Би Пи Эм"
-msgstr ""
+msgstr "LANIT BPM"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:46
+#: .\portfolio\templates\portfolio\content\expirience.html:50
 msgid ""
 "Автоматизация бизнес-процессов организаций-заказчиков с использованием "
 "платформы Pega."
@@ -248,29 +277,29 @@ msgstr ""
 "Automation of business processes of customer organizations using the Pega "
 "platform."
 
-#: .\portfolio\templates\portfolio\content\expirience.html:48
+#: .\portfolio\templates\portfolio\content\expirience.html:52
 msgid "Анализ логов;"
 msgstr "Log analysis;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:49
+#: .\portfolio\templates\portfolio\content\expirience.html:53
 msgid "Построение sql запросов;"
 msgstr "Building sql queries;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:50
+#: .\portfolio\templates\portfolio\content\expirience.html:54
 msgid "Разработка бизнес - процесса оформления кредита в системе Pega BPM;"
 msgstr ""
 "Development of a business process for obtaining a loan in the Pega BPM "
 "system;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:51
+#: .\portfolio\templates\portfolio\content\expirience.html:55
 msgid "Поиск и исправление багов в системе;"
 msgstr "Finding and fixing bugs in the system;"
 
-#: .\portfolio\templates\portfolio\content\expirience.html:52
+#: .\portfolio\templates\portfolio\content\expirience.html:56
 msgid "Ведение задач в Jira."
 msgstr "Issue management in Jira."
 
-#: .\portfolio\templates\portfolio\content\expirience.html:55
+#: .\portfolio\templates\portfolio\content\expirience.html:59
 msgid "Июль 2019 — Июль 2019"
 msgstr "July 2019 — July 2019"
 
@@ -287,13 +316,13 @@ msgstr "Skills"
 msgid "Языки программирования и технологии"
 msgstr "Programming languages and technologies"
 
-#: .\portfolio\templates\portfolio\content\skills.html:22
-msgid "Backend разработка, создание REST-API"
-msgstr "Backend development, creation of REST-API"
+#: .\portfolio\templates\portfolio\content\skills.html:19
+msgid "Backend разработка, создание REST-API, проектирование баз данных"
+msgstr "Backend development, creation of REST-API, database design"
 
-#: .\portfolio\templates\portfolio\content\skills.html:26
-msgid "Машинное обучение, искусственные нейронные сети, глубокое обучение"
-msgstr "Machine learning, artificial neural networks, deep learning"
+#: .\portfolio\templates\portfolio\content\skills.html:23
+msgid "Обработка естественного языка, машинное обучение"
+msgstr "Natural language processing, machine learning"
 
 #: .\portfolio\templates\portfolio\navigation.html:13
 msgid "Обо мне"
@@ -1498,14 +1527,3 @@ msgstr ""
 #: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:249
 msgid "Connect, get help, or contribute"
 msgstr ""
-
-#~ msgid "Выпускная квалификационная работа: "
-#~ msgstr "Final qualifying work: "
-
-#, fuzzy
-#~| msgid "Доработка и сопровождение конфигурации "
-#~ msgid "Доработка и сопровождение конфигурации \\"
-#~ msgstr "Improvement and maintenance of the configuration"
-
-#~ msgid "Ежков Александр"
-#~ msgstr "Ezhkov Alexander"
